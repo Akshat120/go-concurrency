@@ -1,9 +1,9 @@
 # Problem: Concurrent Web Scraper
 **Task: Write a Go program that concurrently scrapes the titles of multiple web pages using goroutines. The program should:** 
 - Accept a list of URLs.
-- Launch a goroutine for each URL to fetch the page and extract the title (the text inside the <title> tag).
-- Collect the titles in a shared slice, ensuring thread safety with a sync.Mutex.
-- Use a sync.WaitGroup to wait for all goroutines to complete.
+- Launch a `goroutine` for each URL to fetch the page and extract the title (the text inside the <title> tag).
+- Collect the titles in a shared slice, ensuring thread safety with a `sync.Mutex`.
+- Use a `sync.WaitGroup` to wait for all goroutines to complete.
 - Print the list of titles once all pages have been scraped.
 
 ## Requirements
