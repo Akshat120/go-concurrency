@@ -24,3 +24,7 @@ Titles:
 - Example Domain
 - Error scraping https://nonexistent-site.xyz: Get "https://nonexistent-site.xyz": dial tcp: lookup nonexistent-site.xyz: no such host
 ```
+### Output - 
+<img width="968" alt="Screenshot 2025-03-09 at 9 32 52 PM" src="https://github.com/user-attachments/assets/652f5ee8-21a0-4f5a-8fa6-b719fd44774c" />
+
+
